@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя особиста сторінка</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #87CEEB, #1E90FF);
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .info {
+            text-align: center;
+            font-size: 18px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022"; 
+            color: white;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Привіт! Я [Ваше Ім'я]</h1>
+        <img src="photo.jpg" alt="Моє фото" class="profile-img">
+        <p class="info">Веб-розробник | Дизайнер | Фрилансер</p>
+        
+        <h2>Про мене</h2>
+        <p>Я займаюся веб-розробкою більше 3 років, створюючи унікальні дизайни та ефективні рішення для сайтів.</p>
+        
+        <h2>Навички</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>UI/UX дизайн</li>
+            <li>Робота з фреймворками (React, Bootstrap)</li>
+            <li>Адаптивна верстка</li>
+        </ul>
+        
+        <h2>Контакти</h2>
+        <p>Email: example@email.com</p>
+        <p>Телефон: +38 (XXX) XXX-XX-XX</p>
+        
+        <div class="footer">&copy; 2025 [Ваше Ім'я]. Всі права захищені.</div>
+    </div>
+</body>
+</html>
